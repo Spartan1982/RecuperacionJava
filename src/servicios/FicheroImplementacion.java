@@ -1,5 +1,7 @@
 package servicios;
 
+import java.io.FileWriter;
+
 public class FicheroImplementacion implements FicheroInterfaz {
 
 	@Override
@@ -8,10 +10,16 @@ public class FicheroImplementacion implements FicheroInterfaz {
 		String ficheroRuta = "C:\\Users\\Jaime\\eclipse-workspace\\Logs\\";
 		String nombreFichero = 
 		
-		FileWriter escritor = new FileWriter();
+		FileWriter escritor = new FileWriter(ficheroRuta);
 		
 	}
 
+	public void leerFichero(){
+		
+		
+		
+	}
+	
 	
 	
 }

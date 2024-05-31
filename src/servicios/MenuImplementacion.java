@@ -20,6 +20,18 @@ public class MenuImplementacion  implements MenuInterfaz{
 		
 	}
 
+	@Override
+	public void alta() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void baja() {
+		// TODO Auto-generated method stub
+		
+	}
+
 	
 	
 }
