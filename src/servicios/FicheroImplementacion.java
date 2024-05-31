@@ -5,7 +5,10 @@ public class FicheroImplementacion implements FicheroInterfaz {
 	@Override
 	public void escribirFicheroLog(String texto) {
 
-		FileWriter escritor = new FileWriter()
+		String ficheroRuta = "C:\\Users\\Jaime\\eclipse-workspace\\Logs\\";
+		String nombreFichero = 
+		
+		FileWriter escritor = new FileWriter();
 		
 	}
 
