@@ -1,5 +1,7 @@
 package dtos;
 
+import java.time.LocalDate;
+
 public class AlumnoDto {
 
 	long idalumno;
@@ -64,7 +66,7 @@ public class AlumnoDto {
 	String email;
 	String dni;
 	String direccion;
-	String FechaNac;
+	LocalDate FechaNac=LocalDate.now();
 	
 	int telefono;
 	

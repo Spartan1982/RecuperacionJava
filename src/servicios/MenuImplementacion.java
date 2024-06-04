@@ -11,7 +11,7 @@ public class MenuImplementacion  implements MenuInterfaz{
 		
 		System.out.println("1.Cerrar menu");
 		System.out.println("2.Alta");
-		System.out.println("3.Elija una opcion");
+		System.out.println("Elija una opcion");
 		
 		opcion = sc.nextInt();
 		return opcion;
@@ -22,12 +22,15 @@ public class MenuImplementacion  implements MenuInterfaz{
 	@Override
 	public void alta() {
 		
+		
 	}
 
 	@Override
 	public void baja() {
 		
+		
 	}
+	
 
 	
 	
