@@ -51,12 +51,21 @@ public class AlumnoDto {
 	public void setTelefono(int telefono) {
 		this.telefono = telefono;
 	}
+	public String getFechaNac() {
+		return FechaNac;
+	}
+	public void setFechaNac(String fechaNac) {
+		FechaNac = fechaNac;
+	}
+	
 	String nombre;
 	String apellido1;
 	String apellido2;
 	String email;
 	String dni;
 	String direccion;
+	String FechaNac;
+	
 	int telefono;
 	
 	
